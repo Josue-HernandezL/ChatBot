@@ -48,6 +48,14 @@ header {
     margin: 20px 0px
 }
 
+/* SECTION */ 
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* RESPONSE IA */
 
 .response-ia {
