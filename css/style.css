@@ -68,7 +68,6 @@ header {
 }
 
 .txt-demo {
-    
     text-align: center;
     font-size: 3vh;
 }
@@ -88,7 +87,7 @@ header {
 }
 .txt-request {
     height: 9vh;
-    width: 90%;
+    width: 70%;
     border-radius: 10px;
     --tw-bg-opacity: 1;
     background-color: rgb(32 34 34 / var(--tw-bg-opacity));
