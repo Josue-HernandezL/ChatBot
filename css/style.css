@@ -15,12 +15,11 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
+    /* border: 1px solid black; */
 }
 body {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
     
     background-color: #D4DFC7;
     
@@ -29,7 +28,7 @@ body {
     font-style: normal;
 }
 main {
-    height: 90%;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -41,11 +40,10 @@ main {
 /* Header chatbot */
 
 header {
+    margin-top: 20px;
+    text-align: center;
     height: 10%;
     width: 100%;
-    position: fixed;
-    top: 0px;
-    margin: 20px 0px
 }
 
 /* SECTION */ 
@@ -54,17 +52,26 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* RESPONSE IA */
 
+.txt-request-ia {
+    text-align: center;
+    font-size: 3vh;
+
+}
+
 .response-ia {
-    height: auto;
-    width: 90%;
+    padding: 50px 0px;
+    height: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+}
+.response-ia h2, .response-ia p {
+    margin-top: 20px;
 }
 
 .txt-demo {
@@ -82,8 +89,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 5rem;
 }
 .txt-request {
     height: 9vh;
@@ -127,8 +132,9 @@ header {
 
 footer {/* 
     background-color: #476e9e; */
-    height: 10%;
+    height: 10vh;
     width: 100%;
+    font-size: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
